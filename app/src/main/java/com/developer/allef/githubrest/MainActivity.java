@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
          * e é essa api que sera completada junto a URL BASE
          */
 
-        Call<List<Repo>> repos = gitHubServices.listRepos("brunobarbosa96");
+        Call<List<Repo>> repos = gitHubServices.listRepos("AllefSousa");
         repos.enqueue(new Callback<List<Repo>>() {
             @Override
             public void onResponse(Call<List<Repo>> call, Response<List<Repo>> response) {
