@@ -57,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
         /**
          * interface responsavel pela rota que a Api vai direcionar se
          * e é essa api que sera completada junto a URL BASE
+         chega ae jhow
          */
 
         Call<List<Repo>> repos = gitHubServices.listRepos("AllefSousa");
